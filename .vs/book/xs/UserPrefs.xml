@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{F600CA95-FB2C-4656-F8D9-711F112E025D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LearningCurve.cs">
+    <Files>
+      <File FileName="Assets/Scripts/LearningCurve.cs" Line="18" Column="35" />
+      <File FileName="Assets/Scripts/Character.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="book" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LearningCurve.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c16f0183-8c74-42b1-a848-c57a757c769c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
