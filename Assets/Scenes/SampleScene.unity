@@ -4982,7 +4982,7 @@ GameObject:
   - component: {fileID: 262365763}
   - component: {fileID: 262365762}
   - component: {fileID: 262365761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5073,7 +5073,7 @@ GameObject:
   - component: {fileID: 317946686}
   - component: {fileID: 317946685}
   - component: {fileID: 317946684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5352,6 +5352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: health_pickup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5651564729891434078, guid: 8f14023e3848ed248bda54ac29c14842,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3481717537189718206, guid: 8f14023e3848ed248bda54ac29c14842,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5574,7 +5579,7 @@ GameObject:
   - component: {fileID: 924385875}
   - component: {fileID: 924385874}
   - component: {fileID: 924385873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5781,9 +5786,9 @@ MonoBehaviour:
   distanceToGround: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
-  bullet: {fileID: 0}
-  bulletSpeed: 100
+    m_Bits: 256
+  bullet: {fileID: 506505769639591989, guid: fe4af658cb1e54813a055a0a5906494f, type: 3}
+  bulletSpeed: 10
 --- !u!1 &1020891071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5884,7 +5889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1103894238}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6015,7 +6020,7 @@ GameObject:
   - component: {fileID: 1141205571}
   - component: {fileID: 1141205570}
   - component: {fileID: 1141205569}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6175,7 +6180,7 @@ GameObject:
   - component: {fileID: 1629127074}
   - component: {fileID: 1629127073}
   - component: {fileID: 1629127072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6334,6 +6339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: health_pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651564729891434078, guid: 8f14023e3848ed248bda54ac29c14842,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3481717537189718206, guid: 8f14023e3848ed248bda54ac29c14842,
         type: 3}
