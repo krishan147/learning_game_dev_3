@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{00F4A0DB-E5D5-D8B1-47F4-DC2FD3DFB932}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameBehavior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyBehavior.cs">
     <Files>
-      <File FileName="Assets/Scripts/BulletBehavior.cs" Line="16" Column="2" />
-      <File FileName="Assets/Scripts/GameBehavior.cs" Line="60" Column="35" />
-      <File FileName="Assets/Scripts/ItemBehavior.cs" Line="24" Column="36" />
+      <File FileName="Assets/Scripts/EnemyBehavior.cs" Line="6" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +9,7 @@
           <Node name="learning_game_dev_3" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GameBehavior.cs" selected="True" />
+                <Node name="EnemyBehavior.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5c284657-3c63-4f08-88a6-2aec9eb1e02b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0e61962e-7852-4d22-b815-fc38d78d9e05" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
