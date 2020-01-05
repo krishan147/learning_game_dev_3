@@ -5,6 +5,14 @@ using UnityEngine;
 
 public class ItemBehavior : MonoBehaviour
 {
+
+    public GameBehavior gameManager;
+
+    void Start()
+    {
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameBehavior>();
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "Player")
@@ -12,6 +20,9 @@ public class ItemBehavior : MonoBehaviour
             Destroy(this.transform.parent.gameObject);
 
             Debug.Log("Item Collected!");
+
+            gameManager.Items += 1;
+
         }
     }
 }
